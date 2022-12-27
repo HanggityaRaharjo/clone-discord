@@ -1,0 +1,13 @@
+.box {
+  @apply bg-[#36393f] w-7/12 p-8 text-white flex rounded-md;
+  animation: show 0.5s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "components/UserCard.jsx", "components/Navbar.jsx", "components/ChannelProfile.jsx", "components/BubbleChat.jsx", "pages/channel/@me/index.jsx", "pages/channel/@me/[id].jsx", "pages/channel/404.jsx", "pages/channel/[id].jsx", "pages/register.js", "pages/login.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

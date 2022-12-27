@@ -1,0 +1,13 @@
+.activ {
+  border-radius: 100%;
+  transition: border-radius 0.2s ease;
+}
+.activ:hover {
+  border-radius: 30%;
+}
+.target {
+  @apply w-10 h-10 absolute rounded bg-[#fefefe] -translate-x-[52px];
+}
+.target:hover {
+  @apply w-10 h-10 absolute rounded bg-red-400 -translate-x-[52px];
+}
